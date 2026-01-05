@@ -1,4 +1,4 @@
-# Cross-Domain Pedestrian Trajectory Prediction via Multi-Scale Adaptive Alignment and Feature Enhancement
+# MADATraj: A Multi-Scale Adaptive Alignment and Dual-Aware Attention Framework for Cross-Domain Pedestrian Trajectory Prediction
 ## Environment
     python=3.8
     torch==2.3.1+cu118 torchvision==0.18.1+cu118 torchaudio==2.3.1+cu118
@@ -14,7 +14,7 @@ train.py, test.py
 #              target_domain = 1   -> target domain: hotel
 ```
 ```
-git clone https://github.com/cymdd/MSATra.git
-cd MSATra
+git clone https://github.com/cymdd/MADATraj.git
+cd MADATraj
 python train.py
 ```  
